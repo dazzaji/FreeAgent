@@ -1,0 +1,35 @@
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color and some padding around the page */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Style headers */
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+/* Style the main content */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+}
+
+/* Style the image */
+.profile-img {
+  max-width: 200px;
+  margin: 20px auto;
+  display: block;
+}
