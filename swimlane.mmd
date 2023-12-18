@@ -1,0 +1,18 @@
+flowchart TD
+    A[Contract Formation between Client and Counter Party] -->|Problem in Performance| B[Problem leads to Harm to Third Party]
+    B -->|Seeking Assistance| C[Client gets a Lawyer]
+    C --> D[Litigation between Client and Third Party]
+    D -->|Counter Party Compelled| E[Counter Party becomes Defendant]
+    E --> F[Client Wins the Case]
+
+    classDef client fill:#f96,stroke:#333,stroke-width:2px;
+    classDef lawyer fill:#9f6,stroke:#333,stroke-width:2px;
+    classDef counterparty fill:#69f,stroke:#333,stroke-width:2px;
+    classDef thirdparty fill:#f66,stroke:#333,stroke-width:2px;
+
+    class A client;
+    class B thirdparty;
+    class C lawyer;
+    class D,E client;
+    class E counterparty;
+    class F client;
